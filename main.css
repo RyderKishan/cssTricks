@@ -1,0 +1,29 @@
+#header {
+  height: 70px;
+  background: wheat;
+  width: 100%;
+  text-align: center;
+  line-height: 70px;
+  font-size: x-large;
+}
+
+#content {
+  background: beige;
+  overflow: auto;
+  height: calc(100vh - 120px);
+}
+
+#footer {
+  height: 50px;
+  background: aliceblue;
+  width: 100%;
+  text-align: center;
+  line-height: 50px;
+}
+
+body {
+  margin: 0px;
+  display: unset;
+  font-size: 14px;
+  font-family: 'Proxima Nova Soft', 'Helvetica Neue', sans-serif;
+}
