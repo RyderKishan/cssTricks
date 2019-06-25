@@ -1,0 +1,35 @@
+html {
+  background: #e6e9e9;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+}
+
+#users, #selecteduser {
+  margin: 16px 0px;
+  width: 256px;
+}
+
+#user {
+  display: flex;
+  height: 48px;
+  margin-bottom: 8px;
+  width: 100%;
+}
+
+#user #profile{
+  height: 48px;
+  margin-right: 8px;
+  width: 48px;
+}
+
+#user #profile img{
+  height: inherit;
+  width: inherit;
+}
+
+#user #details div{
+  line-height: 24px;
+}
